@@ -1,0 +1,259 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/*styling the navbar*/
+
+.navbar {
+  z-index: 0;
+  align-items: center;
+  padding: 0 !important;
+  position: relative;
+}
+ul li {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+nav a.active {
+  color: #69b9ff;
+}
+.logo a {
+  font-size: 25px;
+  letter-spacing: 4;
+}
+nav a {
+  color: #676770;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  transition: animation ease-in-out 0.2s;
+}
+
+/*start tyling the hero section*/
+.hero-section {
+  text-transform: uppercase;
+  background: linear-gradient(rgba(46, 157, 255, 0.5), rgba(46, 157, 255, 0.22)),
+    url("./images/hero-background.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  min-height: 80vh;
+}
+.hero-centered {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 100px !important;
+}
+.hero-centered h1 {
+  font-weight: 300;
+  line-break: normal;
+  font-size: 45px;
+}
+.hero-centered p {
+  line-break: normal;
+  color: #2e9dff;
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin: 20px 0px;
+}
+.hero-centered button {
+  border: 1px solid;
+  color: white;
+  background: transparent;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  margin: 0px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.button-section button:first-child {
+  background: #69b9ff;
+  border: #69b9ff;
+}
+
+.menu {
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .open-list {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border: solid 1px rgb(219, 219, 219);
+    top: 100%;
+    width: 100%;
+    border-radius: 2px;
+    right: 0%;
+    color: white;
+    animation: down 0.4s ease-in-out normal;
+  }
+  @keyframes down {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+}
+
+/* here we start styling the features part*/
+.features {
+  margin: 60px 0px;
+  text-align: center;
+  color: #676770;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.features h2 {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.features h4 {
+  margin: 15px;
+}
+.features p,
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.features .row p {
+  text-transform: lowercase;
+  letter-spacing: 1.3px;
+  font-weight: 300;
+}
+.features .col-lg {
+  border: 1px solid #dcebf7;
+  padding: 20px;
+}
+.icon {
+  padding: 10px;
+  border: 1px solid #69b9ff;
+  border-radius: 50%;
+  width: 90px;
+  margin: 10px auto;
+  height: 90px;
+}
+/*start services styling*/
+.services {
+  margin: 30px 0;
+  color: white;
+  background-color: #192024;
+  padding: 80px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #c2c2c2;
+  letter-spacing: 4px;
+}
+
+.services img {
+  width: 100%;
+}
+.services .col-md {
+  padding: 15px;
+}
+.services .services-section {
+  padding: 20px;
+}
+.services p {
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+.services button {
+  padding: 10px 30px;
+  margin: 0px 10px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 4px;
+}
+/*here start styling the tab section*/
+.tab-section img {
+  width: 100%;
+  margin: 20px auto;
+}
+.tab-section button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #92a0ad;
+  border-radius: 4px;
+  color: white;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .hero-centered {
+    transform: translateY(50%);
+    padding-top: 20px !important;
+  }
+  .tab-section img {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .hero-centered h1 {
+    font-size: 60px;
+    letter-spacing: 4px;
+  }
+  .hero-centered p {
+    letter-spacing: 3px;
+    font-size: 22px;
+  }
+  .hero-centered button {
+    padding: 10px 30px;
+    margin: 0px 10px;
+  }
+  .tab-section button {
+    padding: 12px 30px;
+    border: none;
+    background-color: #92a0ad;
+    border-radius: 4px;
+    color: white;
+    margin: 5px;
+  }
+}
+.footer {
+  background-color: #ddd;
+}
+.footer p {
+  color: #676770;
+  font-weight: 300;
+}
+.footer .links p {
+  border-bottom: solid 1px grey;
+}
+.footer .links p,
+.footer .about p,
+.social p {
+  padding: 5px;
+}
+
+.icons a {
+  color: grey;
+  margin: 0px 12px;
+  width: 100%;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-bottom: #676770 1px solid;
+}
+.icons {
+  padding: 12px;
+}
+.copyright {
+  background-color: #383838;
+  text-align: center;
+  color: #ddd;
+  min-height: 15vh;
+}
+.copyright-section p {
+  transform: translateY(25px);
+}

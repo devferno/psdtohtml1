@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.Velocity.com</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <nav>
+        <div class="container">
+          <div class="navbar">
+              <div class="logo "><a href="#" class="active">VELOCITY</a></div>
+              <ul class="d-none d-sm-flex">
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+              <div class="d-block d-sm-none menu"><i class="fas fa-bars"></i></div>
+            </div>
+          </div>
+      </nav>
+      <!-- start the hero section------------------>
+      <div class="hero-section">
+          <div class="container">
+              <div class="hero-centered pt-5 pt-sm-4">
+          <h1>THIS IS VELOCITY</h1>
+          <p>A free repsonsive template by webflow</p>
+          <div class="button-section mx-auto">
+              <button>Sign up</button>
+              <button>Learn More</button>
+          </div>
+        </div>
+    </div>
+      </div>
+      <!-- end the hero section--------------------->
+      <!-- start the features-section------------------------->
+      <div class="features">
+          <div class="container">
+              <div class="section">
+                  <h2>What we do</h2>
+                  <div>This is some text insisde a div block</div>
+                  <div class="row mt-5">
+                      <div class="col-lg mt-3 me-2">
+                        <div class="icon"><i class="fas fa-clock" style="font-size:70px;color:#2196F3"></i></div>
+                          <h4>Graphic design</h4>
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo similique rerum laboriosam minus illo</p>
+                      </div>
+                      <div class="col-lg mt-3 me-2">
+                        <div class="icon"><i class="fas fa-clock" style="font-size:70px;color:#2196F3"></i></div>
+                        <h4>Awesome code</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo similique rerum laboriosam minus illo</p>
+                    </div>
+                    <div class="col-lg mt-3 me-2">
+                        <div class="icon"><i class="fas fa-clock" style="font-size:70px;color:#2196F3"></i></div>
+                        <h4>Graphic design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo similique rerum laboriosam minus illo</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- end the features section------------------------>
+      <!-- start the services section---------------------->
+      <div class="services">
+          <div class="container">
+              <div class="services-section">
+                <h3>Services</h3>
+                <div>This is some text inside a text block</div>
+                <div class="row mt-3 p-0">
+                    <div class="col-md mt-3 me-2 p-2">
+                        <img src="images/services1.jpg" alt="anything">
+                        <h4>SERVICES one</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci </p>
+                        <button>Learn more</button>
+                    </div>
+                    <div class="col-md mt-3 me-2 p-2">
+                        <img src="images/services2.jpg" alt="anything2">
+                        <h4>SERVICES two</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci </p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <!--start the tab section---------------------------->
+    <div class="tab">
+        <div class="container">
+      <div class="tab-section text-center pt-4">
+          <h4 class="my-4">TAB SECTION</h4>
+          <p>this is some text in div</p>
+          <div class="choose-section my-4">
+            <button class="one" id="btn1" onclick="showImage(1)">Tab button 1</button>
+            <button class="sec" id="btn2" onclick="showImage(2)">Tab button 2</button>
+            <button class="third" id="btn3" onclick="showImage(3)">Tab button 2</button>
+          </div> 
+          <div class="images">
+          <img src="images/services1.jpg" id="1" class="current"/>
+          <img src="images/services2.jpg" id="2" class="d-none"/>
+          <img src="images/hero-background.jpg" id="3" class="d-none"/>
+        </div>
+        <h4>Some title here</h4>
+        <p style="margin: 10px auto;font-weight: 300; max-width: 800px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptatibus deleniti aliquam nesciunt magnam dolorum repudiandae natus, consequatur eligendi delectus autem impedit architecto tenetur quos magni sequi quae unde provident.</p>
+      </div>
+    </div>
+    </div>
+      <!--end the tab section------------------------------>
+      <!--start the footer section------------------------->
+      <div class="footer mt-5">
+        <div class="container">
+          <div class="footer-section row pt-4">
+            <div class="col-md about ">
+              <h4>About velocity</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, nihil! Quo culpa eaque nisi fugit officia a iste voluptates magnam odio repellendus? Quibusdam necessitatibus exercitationem quidem in.</p>
+            </div>
+            <div class="col-md links">
+              <h4>Useful links</h4>
+              <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+              </div>
+            </div>
+            <div class="col-md social">
+              <h4>Social</h4>
+              <div class="icons"><i class="fab fa-twitter"></i><a href="#">Twitter</a></div>
+              <div class="icons"><i class="fab fa-facebook"></i><a href="#">Facebook</a></div>
+              <div class="icons"><i class="fab fa-instagram"></i><a href="#">Instagram</a></div>
+              <div class="icons"><i class="fab fa-github"></i><a href="#">Github</a></div>
+              <div class="icons"><i class="fab fa-linkedin"></i><a href="#">Linkedin</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright-section">
+            <p>Copyright Velocity Inc. Made in Webflow</p>
+          </div>
+        </div>
+      </div>
+        <!--end the footer part------------------------------>
+      <script src="main.js"></script>
+      <script src="https://kit.fontawesome.com/ecee8a9d61.js" crossorigin="anonymous"></script>
+  </body>
+</html>
